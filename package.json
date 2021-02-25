@@ -18,6 +18,7 @@
   "homepage": "https://github.com/50ra4/clasp-send-mail-sample#readme",
   "devDependencies": {
     "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.26",
     "@types/node": "^14.14.31",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.2"
