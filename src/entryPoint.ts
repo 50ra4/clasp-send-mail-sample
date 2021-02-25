@@ -23,8 +23,8 @@ const replaceMessage = (template: string, replaceParams: Record<string | number,
     template,
   );
 
-const outputHelloWorld = () => console.log('hello world!');
-const onSendMail = () => {
+export const outputHelloWorld = (): void => console.log('hello world!');
+export const onSendMail = (): void => {
   const today = getToday();
   const startOfThisYear = startOfYear(today);
   const startOfNextYear = addDays(endOfYear(today), 1);
