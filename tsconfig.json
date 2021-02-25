@@ -3,7 +3,10 @@
     "lib": ["esnext"],
     "experimentalDecorators": true,
     "types": ["@types/google-apps-script"],
-    "strict": true
+    "strict": true,
+    "target": "es2017",
+    "module": "es2015",
+    "moduleResolution": "node"
   },
   "include": ["./src/**/*"]
 }
