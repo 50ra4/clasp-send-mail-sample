@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/50ra4/clasp-send-mail-sample#readme",
   "devDependencies": {
-    "@google/clasp": "^2.3.0"
+    "@google/clasp": "^2.3.0",
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
   }
 }
