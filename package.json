@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/50ra4/clasp-send-mail-sample/issues"
   },
-  "homepage": "https://github.com/50ra4/clasp-send-mail-sample#readme"
+  "homepage": "https://github.com/50ra4/clasp-send-mail-sample#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.3.0"
+  }
 }
