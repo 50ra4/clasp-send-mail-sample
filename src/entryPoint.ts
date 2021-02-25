@@ -1,4 +1,4 @@
 import { onSendMail, outputHelloWorld } from './services';
 
-global.onSubmitForm = onSendMail;
+global.onSendMail = onSendMail;
 global.outputHelloWorld = outputHelloWorld;
