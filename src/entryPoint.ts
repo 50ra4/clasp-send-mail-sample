@@ -35,3 +35,6 @@ export const onSendMail = (): void => {
   const body = replaceMessage(MESSAGE_TEMPLATE, { today: todayStr, daysPassedThisYear, daysLeftThisYear });
   TO_EMAIL_ADDRESS.forEach((to) => MailApp.sendEmail({ to, subject, body }));
 };
+
+global.onSubmitForm = onSendMail;
+global.outputHelloWorld = outputHelloWorld;
