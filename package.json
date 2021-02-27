@@ -7,7 +7,7 @@
     "build": "webpack --mode production --config webpack.config.js && cp ./src/appsscript.json ./dist",
     "publish": "npm run build && clasp push",
     "lint": "eslint --fix --cache ./src/**/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest -c ./jest.config.js"
   },
   "husky": {
     "hooks": {
