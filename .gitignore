@@ -105,3 +105,4 @@ dist
 
 # Clasp
 .clasp.json
+.output

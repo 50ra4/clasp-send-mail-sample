@@ -13,6 +13,7 @@ export const ENVIRONMENT_FILE_NAME = '.env';
 export const DEFAULT_ENVIRONMENT_FILE_PATH = path.join(process.cwd(), ENVIRONMENT_FILE_NAME);
 
 export const SCRIPT_OPTION = {
+  cd: 'CD',
   deploymentName: 'deploymentName',
   clasprcPath: 'clasprcPath',
   claspPath: 'claspPath',

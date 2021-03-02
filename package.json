@@ -8,7 +8,8 @@
     "publish": "npm run build && clasp push",
     "lint": "eslint --fix --cache ./**/*.ts",
     "test": "jest -c ./jest.config.js",
-    "generate-env": "ts-node --project tsconfig.scripts.json scripts/generateEnv.ts"
+    "generate-env": "ts-node --project tsconfig.scripts.json scripts/generateEnv.ts",
+    "setup-clasp-files": "ts-node --project tsconfig.scripts.json scripts/setupClaspFiles.ts"
   },
   "husky": {
     "hooks": {
