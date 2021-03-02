@@ -12,6 +12,12 @@ export const ENVIRONMENT_FILE_NAME = '.env';
 /** ./.env */
 export const DEFAULT_ENVIRONMENT_FILE_PATH = path.join(process.cwd(), ENVIRONMENT_FILE_NAME);
 
+export const SCRIPT_OPTION = {
+  deploymentName: 'deploymentName',
+  clasprcPath: 'clasprcPath',
+  claspPath: 'claspPath',
+} as const;
+
 export const INITIAL_CLASP_LOGIN_INFO = {
   token: {
     access_token: '',

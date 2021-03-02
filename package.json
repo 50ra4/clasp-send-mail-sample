@@ -7,7 +7,8 @@
     "build": "webpack --mode production --config webpack.config.js && cp ./src/appsscript.json ./dist",
     "publish": "npm run build && clasp push",
     "lint": "eslint --fix --cache ./src/**/*.ts",
-    "test": "jest -c ./jest.config.js"
+    "test": "jest -c ./jest.config.js",
+    "generate-env": "ts-node --project tsconfig.scripts.json scripts/generateEnv.ts"
   },
   "husky": {
     "hooks": {
