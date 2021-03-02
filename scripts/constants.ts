@@ -8,6 +8,10 @@ export const DEFAULT_CLAPS_LOGIN_FILE_PATH = path.join(USER_HOME_PATH, CLASP_LOG
 export const CLAPS_SETTING_FILE_NAME = '.clasp.json';
 /** ./.clasp.json */
 export const DEFAULT_CLAPS_SETTING_FILE_PATH = path.join(process.cwd(), CLAPS_SETTING_FILE_NAME);
+export const ENVIRONMENT_FILE_NAME = '.env';
+/** ./.env */
+export const DEFAULT_ENVIRONMENT_FILE_PATH = path.join(process.cwd(), ENVIRONMENT_FILE_NAME);
+
 export const INITIAL_CLASP_LOGIN_INFO = {
   token: {
     access_token: '',
