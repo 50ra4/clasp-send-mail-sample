@@ -17,7 +17,8 @@
     }
   },
   "lint-staged": {
-    "{src,test,scripts}/**/*.{ts,json}": "eslint --cache --fix"
+    "*.{ts}": "eslint --cache --fix",
+    "*.{js,json}": "prettier --write"
   },
   "repository": {
     "type": "git",
