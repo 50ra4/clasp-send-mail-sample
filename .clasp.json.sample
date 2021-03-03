@@ -1,0 +1,6 @@
+// コピーしてファイル名を.clasp.jsonに変更し、GASの紐付けるScriptIDをしてしてください。
+{
+  "scriptId": "SCRIPT_ID",
+  "rootDir": "dist/",
+  "fileExtension": "js"
+}
