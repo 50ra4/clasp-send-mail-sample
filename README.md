@@ -10,7 +10,7 @@ ClaspとTypeScriptを利用して作成したGoogleAppScripts（GAS）のサン�
 
 - node.js（14.16.0）のインストール
 - GoogleのアカウントでGASの新しいプロジェクトを作成し、scriptIdを取得
-- プロジェクトのスクリプトプロパティにkeyを`TO_EMAIL_ADDRESS`として、送信先のメールアドレスを設定（カンマ区切りで複数指定可）
+- プロジェクトのスクリプトプロパティにkeyを`toEmailAddress`として、送信先のメールアドレスを設定（カンマ区切りで複数指定可）
 
 ## Usage
 
