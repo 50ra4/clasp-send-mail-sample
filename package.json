@@ -39,11 +39,12 @@
     "@typescript-eslint/eslint-plugin": "4.15.0",
     "@typescript-eslint/parser": "4.15.0",
     "commander": "7.1.0",
+    "date-fns": "2.16.1",
     "dotenv": "8.2.0",
     "eslint": "7.20.0",
     "eslint-config-prettier": "7.2.0",
     "eslint-plugin-prettier": "3.3.1",
-    "gas-webpack-plugin": "2.0.0",
+    "gas-webpack-plugin": "1.2.2",
     "husky": "4.3.6",
     "jest": "26.6.3",
     "lint-staged": "10.5.3",
@@ -53,10 +54,7 @@
     "ts-loader": "8.0.17",
     "ts-node": "9.1.1",
     "typescript": "4.2.2",
-    "webpack": "5.24.2",
+    "webpack": "4.46.0",
     "webpack-cli": "4.5.0"
-  },
-  "dependencies": {
-    "date-fns": "2.17.0"
   }
 }
