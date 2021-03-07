@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production --config webpack.config.js && cp ./src/appsscript.json ./dist",
+    "clear": "rimraf dist",
+    "build": "npm run clear && webpack --mode production --config webpack.config.js && cp ./src/appsscript.json ./dist",
     "publish": "npm run build && clasp push",
     "lint": "eslint --fix --cache ./**/*.ts",
     "test": "jest -c ./jest.config.js",
