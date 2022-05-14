@@ -17,7 +17,7 @@ export const createMail = (date: Date): { subject: string; body: string } => {
   const daysThisYear = differenceInDays(startOfNextYear, startOfThisYear);
   const percentPassedThisYear = floor((daysPassedThisYear / daysThisYear) * 100);
   const percentLeftThisYear = floor((daysLeftThisYear / daysThisYear) * 100);
-  const subject = `【今年の残り日数】あと${daysLeftThisYear}日(${percentLeftThisYear})`;
+  const subject = `【今年の残り日数】あと${daysLeftThisYear}日(${percentLeftThisYear}%)`;
   const body = replaceMessage(MESSAGE_TEMPLATE, {
     today: format(date, 'yyyy/MM/dd'),
     daysPassedThisYear,
